@@ -1,0 +1,184 @@
+body{
+    background-color: black;
+
+}
+
+
+.heading{
+    position: absolute;
+    top:0%;
+    right:0%;
+    margin-right: 5%;
+    margin-top: 40px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.heading a {
+    text-decoration: none; /* Add this line to remove the underline */
+    margin-left: 5%;
+    margin-top: 40px;
+    font-weight: 500;
+    font-size: 20px;
+    color: white;
+    margin: 0 10px;
+    transition: all ease .50s;
+    
+}
+.heading a:hover {
+    color: red/* your desired hover color */;
+}
+.hh{
+    color: white;
+    font-weight: 500;
+    font-size: 28px;
+    margin-top: 30px;
+}
+.hh span{
+    color:red;
+    font-weight:500;
+    font-size: 28px;
+    margin-top: 30px;
+}
+#home{
+    padding: 0 15%;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.home-txt span{
+    font-size: 20px;
+    color: white;
+}
+.home-txt h1{
+    font-size:50px;
+    margin:23px 0;
+    color:rgb(193, 15, 15);
+
+}
+.home-txt p{
+    font-size:var(--p-font);
+    font-weight:400;
+    color: white;
+}
+.imageme img{
+    
+    width: 500px;
+    height:500px;
+}
+#about{
+    
+    margin-left: 5%;
+
+}
+.about-me h2{
+    color:red;
+    font-size: 40px;
+}
+.about-me p{
+    color:white;
+    font-size: 20px;
+}
+#skills {
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.skillsme h2 {
+    color: red;
+    font-size: 40px;
+}
+
+.skillsme {
+    text-align: center;
+}
+
+.skillsimg {
+    width: 90px; /* Adjust the width */
+    height: 90px; /* Adjust the height */
+    display: flex; /* Make images flex items */
+    gap:40px;
+}
+#project {
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.projectme h2{
+    color:red;
+    font-size: 40px;
+}
+.projectme{
+    text-align: center;
+}
+.projectmepics {
+    width: 150px; /* Adjust the width */
+    height: 140px; /* Adjust the height */
+    display: flex; /* Make images flex items */
+    gap:40px;
+}
+h4{
+    color:white;
+    text-align: center;
+    font-size: 15px;
+    
+}
+#cv h2{
+    color:red;
+    font-size: 40px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.cvpage {
+    text-align: center;
+}
+
+.cvpage button {
+    display: inline-block; /* Ensures the link is a block-level element */
+    margin-top: 20px; /* Adjust the top margin as needed */
+    font-size: 20px;
+    color:green;
+    text-decoration: none;
+
+}
+
+
+
+#contact{
+    color:red;
+    font-size: 30px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:20px;
+}
+
+.contactpic img{
+    height: 50px; /* Adjust the height to your preference */
+    width: auto; /* Let the width adjust proportionally based on the height */
+    gap: 20px;
+    margin-left: 20%;
+    align-items: center;
+
+}
+.heading a {
+    transition: background-color 10ms ease-in-out;
+    background-color: transparent;
+}
+
+.heading a.active {
+    background-color: #d8ae07; /* Replace with your desired highlight color */
+}
+
